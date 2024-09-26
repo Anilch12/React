@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { reset } from "./Store";
 
+
 const Account=()=>{
     const dispatch=useDispatch();
    let data= useSelector((state)=>{

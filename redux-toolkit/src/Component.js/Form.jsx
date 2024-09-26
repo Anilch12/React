@@ -1,6 +1,7 @@
 import { useState } from "react"
-import {UpdateMoblie,UpdatefullName,WithDraw,Deposit, addTransition} from './Store';
+
 import { useDispatch, useSelector } from "react-redux";
+import { addTransition, Deposit, UpdatefullName, UpdateMoblie, WithDraw } from "./Store";
 
 
 export const Form=()=>{

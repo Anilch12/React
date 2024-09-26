@@ -1,7 +1,9 @@
 
-import Account from './Account'
+
 import './App.css'
-import { Form } from './Form'
+import Account from './Component.js/Account'
+import { Form } from './Component.js/Form'
+
 
 function App() {
 
