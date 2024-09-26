@@ -5,11 +5,9 @@ import { reset } from "./Store";
 const Account=()=>{
     const dispatch=useDispatch();
    let data= useSelector((state)=>{
-        console.log(state)
         return state?.user
     })
     let Transcationdata= useSelector((state)=>{
-        console.log(state)
         return state?.transaction
     })
 
